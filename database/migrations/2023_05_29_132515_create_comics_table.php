@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('title');
             $table->text('description')->nullable;
             $table->string('thumb');
-            $table->bigInteger('price');
+            $table->string('price');
             $table->string('series');
             $table->string('sale_date');
             $table->string('type');
